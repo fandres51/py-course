@@ -1,0 +1,1 @@
+{'animes': [{'name': 'One Piece', 'genere': 'Fighting Shounen', 'seasson': '1999-Today', 'num_episodes': 1076, 'on_air': True}, {'name': 'Dragon Ball', 'genere': 'Fighting Shounen', 'seasson': '1981-1995', 'num_episodes': 405, 'on_air': False}, {'name': 'Naruto', 'genere': 'Fighting Shounen', 'seasson': '2003-2017', 'num_episodes': 721, 'on_air': False}]}

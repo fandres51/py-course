@@ -1,13 +1,13 @@
 class Anime:
     name = '',
-    genere = '',
+    genre = '',
     season = '',
     on_air = False,
     num_episodes = 0
 
-    def __init__(self, name, genere, season, num_episodes, on_air=True) -> None:
+    def __init__(self, name, genre, season, num_episodes, on_air=True) -> None:
         self.name = name
-        self.genere = genere
+        self.genre = genre
         self.season = season
         self.num_episodes = num_episodes
         self.on_air = on_air
@@ -17,19 +17,19 @@ class Anime:
         message = self.name + ' is an anime from ' + \
             self.season + ' with ' + \
             str(self.num_episodes) + ' episodes from ' + \
-            self.genere + ' genere ' + on_air_msg
+            self.genre + ' genre ' + on_air_msg
         return message
 
 class Character:
     name = '',
-    genere = '',
+    genre = '',
     age = 0,
     is_protagonist = True,
     __anime = ''
 
-    def __init__(self,  name,  genere,  age = -1,  is_protagonist = False) -> None:
+    def __init__(self,  name,  genre,  age = -1,  is_protagonist = False) -> None:
         self.name = name
-        self.genere = genere
+        self.genre = genre
         self.age = age
         self.is_protagonist = is_protagonist
 
